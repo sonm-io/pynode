@@ -2,8 +2,8 @@ import json
 import hashlib
 from urllib import request, error
 
-from Crypto import Random
-from Crypto.Cipher import AES
+from crypto import Random
+from crypto.Cipher import AES
 
 from eth_keyfile import load_keyfile, decode_keyfile_json
 
