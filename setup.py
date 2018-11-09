@@ -10,7 +10,7 @@ setup(name='sonm_pynode',
       url='https://github.com/sonm-io/sonm-pynode',
       packages=['sonm_pynode'],
       install_requires=[
-          'crypto',
+          'Crypto',
           'cytoolz==0.9.0.1',
           'ecdsa==0.13',
           'eth-hash==0.2.0',
