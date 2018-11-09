@@ -2,13 +2,13 @@ from os.path import join, dirname
 
 from setuptools import setup
 
-setup(name='sonm-pynode',
+setup(name='sonm_pynode',
       version='0.0.6',
       description='wrapper for AES-encrypted REST API provided by SONM Node',
       author='sshaman1101',
       long_description=open(join(dirname(__file__), 'README.md')).read(),
       url='https://github.com/sonm-io/sonm-pynode',
-      packages=['sonm-pynode'],
+      packages=['sonm_pynode'],
       install_requires=[
           'Crypto',
           'cytoolz==0.9.0.1',
